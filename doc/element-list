@@ -1,0 +1,10 @@
+modelCheckCTL
+modelCheckCTL.controller
+modelCheckCTL.controller.ctl.Parser
+modelCheckCTL.controller.ctl.Validator
+modelCheckCTL.controller.types.kripke
+modelCheckCTL.controller.types.misc
+modelCheckCTL.controller.types.modelCheckRelated
+modelCheckCTL.model
+modelCheckCTL.utils
+modelCheckCTL.view

@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>dev.markmcd</OriginalElement>
+  <nodes>
+    <node x="3605.065761060325" y="1736.5">dev.markmcd.controller.types.kripke.KripkeFileObj</node>
+    <node x="2092.565761060325" y="1322.0">dev.markmcd.controller.types.modelCheckRelated.ValidateModelResults</node>
+    <node x="1863.5444758140404" y="2308.0">dev.markmcd.controller.ctl.Validator.Validator</node>
+    <node x="2413.565761060325" y="1309.0">dev.markmcd.controller.types.modelCheckRelated.ValidateFormulaResults</node>
+    <node x="1322.8324675324675" y="1296.0">dev.markmcd.controller.types.modelCheckRelated.ModelCheckResults</node>
+    <node x="919.6181818181817" y="1775.5">dev.markmcd.controller.types.modelCheckRelated.AllEndToEndTestResults</node>
+    <node x="2759.565761060325" y="2684.0">dev.markmcd.controller.types.modelCheckRelated.EndToEndFormulaFileObj</node>
+    <node x="1895.173507472747" y="1775.5">dev.markmcd.controller.types.modelCheckRelated.ValidationResults</node>
+    <node x="3116.565761060325" y="2100.0">dev.markmcd.controller.ctl.Parser.Parser</node>
+    <node x="1687.5657610603248" y="1335.0">dev.markmcd.controller.types.modelCheckRelated.ValidateStateToCheckResults</node>
+    <node x="1843.7568408060802" y="728.0">dev.markmcd.utils.Utils</node>
+    <node x="1.3136589878986342" y="1672.0">dev.markmcd.controller.types.misc.Options</node>
+    <node x="2153.5824277269917" y="3589.0">dev.markmcd.controller.Controller</node>
+    <node x="852.2568408060802" y="2684.0">dev.markmcd.model.Model</node>
+    <node x="210.25684080608016" y="2619.5">dev.markmcd.view.View</node>
+    <node x="1525.5444758140404" y="1736.5">dev.markmcd.controller.types.modelCheckRelated.EndToEndTestResult</node>
+    <node x="78.79999999999973" y="1283.0">dev.markmcd.controller.types.misc.Arguments</node>
+    <node x="0.0" y="884.5">dev.markmcd.controller.types.modelCheckRelated.FormulaInputSource</node>
+    <node x="295.0657610603248" y="4263.0">dev.markmcd.Main</node>
+    <node x="3085.6255908060803" y="0.0">dev.markmcd.controller.types.kripke.Transition</node>
+    <node x="3331.065761060325" y="1750.0">dev.markmcd.controller.types.modelCheckRelated.ModelCheckInputs</node>
+    <node x="2866.0593760523648" y="320.0">dev.markmcd.controller.types.kripke.State</node>
+    <node x="3438.79447581404" y="1283.5">dev.markmcd.controller.types.kripke.Kripke</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="dev.markmcd.view.View" target="dev.markmcd.controller.types.modelCheckRelated.ValidateModelResults">
+      <point x="56.545454545454504" y="-125.0" />
+      <point x="577.8022953515347" y="2080.0" />
+      <point x="610.2498745936778" y="2080.0" />
+      <point x="610.2498745936778" y="1602.0" />
+      <point x="2122.6657610603247" y="1602.0" />
+      <point x="-120.40000000000009" y="60.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.misc.Arguments" target="dev.markmcd.utils.Utils">
+      <point x="106.0" y="-99.5" />
+      <point x="343.7999999999997" y="1243.0" />
+      <point x="1871.9235074727467" y="1243.0" />
+      <point x="-140.83333333333348" y="242.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.misc.Options" target="dev.markmcd.controller.types.misc.Arguments">
+      <point x="39.75" y="-164.0" />
+      <point x="200.06365898789863" y="1652.0" />
+      <point x="158.29999999999973" y="1652.0" />
+      <point x="-79.5" y="99.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.modelCheckRelated.ModelCheckResults">
+      <point x="-141.08108108108127" y="-307.0" />
+      <point x="2273.5013466459104" y="3479.0" />
+      <point x="1405.7568408060802" y="3479.0" />
+      <point x="1405.7568408060802" y="1582.0" />
+      <point x="1455.3324675324675" y="1582.0" />
+      <point x="0.0" y="86.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.modelCheckRelated.ValidationResults" target="dev.markmcd.controller.types.modelCheckRelated.ValidateStateToCheckResults">
+      <point x="-112.0" y="-60.5" />
+      <point x="2007.173507472747" y="1542.0" />
+      <point x="1880.0657610603248" y="1542.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.ctl.Validator.Validator">
+      <point x="-84.64864864864876" y="-307.0" />
+      <point x="2329.933779078343" y="3439.0" />
+      <point x="1950.7944758140404" y="3439.0" />
+      <point x="-87.25" y="436.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.modelCheckRelated.ValidationResults" target="dev.markmcd.controller.types.modelCheckRelated.ValidateModelResults">
+      <point x="37.33333333333326" y="-60.5" />
+      <point x="2156.50684080608" y="1622.0" />
+      <point x="2243.065761060325" y="1622.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.kripke.Kripke" target="dev.markmcd.controller.types.kripke.State">
+      <point x="0.0" y="-99.0" />
+      <point x="3562.29447581404" y="1263.0" />
+      <point x="3588.0735074727468" y="1263.0" />
+      <point x="3588.0735074727468" y="668.0" />
+      <point x="3127.6218760523648" y="668.0" />
+      <point x="122.0625" y="164.0" />
+    </edge>
+    <edge source="dev.markmcd.view.View" target="dev.markmcd.controller.types.modelCheckRelated.EndToEndTestResult">
+      <point x="226.18181818181802" y="-125.0" />
+      <point x="747.4386589878982" y="2050.0" />
+      <point x="1578.377809147374" y="2050.0" />
+      <point x="-105.66666666666652" y="99.5" />
+    </edge>
+    <edge source="dev.markmcd.Main" target="dev.markmcd.model.Model">
+      <point x="54.85714285714266" y="-34.5" />
+      <point x="445.92290391746747" y="4233.0" />
+      <point x="904.5281260523645" y="4233.0" />
+      <point x="904.5281260523645" y="3569.0" />
+      <point x="994.0068408060802" y="3569.0" />
+      <point x="-47.25" y="60.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.kripke.KripkeFileObj">
+      <point x="211.62162162162167" y="-307.0" />
+      <point x="2626.2040493486134" y="3539.0" />
+      <point x="3719.065761060325" y="3539.0" />
+      <point x="3719.065761060325" y="2080.0" />
+      <point x="3767.815761060325" y="2080.0" />
+      <point x="54.25" y="99.5" />
+    </edge>
+    <edge source="dev.markmcd.Main" target="dev.markmcd.controller.Controller">
+      <point x="82.28571428571422" y="-34.5" />
+      <point x="473.351475346039" y="4243.0" />
+      <point x="2414.5824277269917" y="4243.0" />
+      <point x="0.0" y="307.0" />
+    </edge>
+    <edge source="dev.markmcd.Main" target="dev.markmcd.view.View">
+      <point x="0.0" y="-34.5" />
+      <point x="391.0657610603248" y="4233.0" />
+      <point x="354.02812605236454" y="4233.0" />
+      <point x="354.02812605236454" y="3569.0" />
+      <point x="443.50684080608016" y="3569.0" />
+      <point x="-77.75" y="125.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.ctl.Parser.Parser" target="dev.markmcd.utils.Utils">
+      <point x="-139.60000000000002" y="-644.5" />
+      <point x="3151.465761060325" y="2080.0" />
+      <point x="3149.722011060325" y="2080.0" />
+      <point x="3149.722011060325" y="1253.0" />
+      <point x="2097.25684080608" y="1253.0" />
+      <point x="84.5" y="242.5" />
+    </edge>
+    <edge source="dev.markmcd.view.View" target="dev.markmcd.controller.types.modelCheckRelated.AllEndToEndTestResults">
+      <point x="169.6363636363635" y="-125.0" />
+      <point x="690.8932044424437" y="2040.0" />
+      <point x="952.1181818181817" y="2040.0" />
+      <point x="-130.0" y="60.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.modelCheckRelated.ModelCheckResults" target="dev.markmcd.utils.Utils">
+      <point x="0.0" y="-86.5" />
+      <point x="1455.3324675324675" y="1263.0" />
+      <point x="1984.5901741394136" y="1263.0" />
+      <point x="-28.166666666666515" y="242.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.modelCheckRelated.ValidateFormulaResults">
+      <point x="28.216216216216253" y="-307.0" />
+      <point x="2442.798643943208" y="3409.0" />
+      <point x="2587.2044200482233" y="3409.0" />
+      <point x="2587.2044200482233" y="1642.0" />
+      <point x="2641.065761060325" y="1642.0" />
+      <point x="65.0" y="73.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.kripke.Kripke">
+      <point x="183.40540540540542" y="-307.0" />
+      <point x="2597.987833132397" y="3519.0" />
+      <point x="3594.565761060325" y="3519.0" />
+      <point x="3594.565761060325" y="1652.0" />
+      <point x="3562.29447581404" y="1652.0" />
+      <point x="0.0" y="99.0" />
+    </edge>
+    <edge source="dev.markmcd.model.Model" target="dev.markmcd.controller.types.modelCheckRelated.ValidationResults">
+      <point x="157.5" y="-60.5" />
+      <point x="1198.7568408060802" y="2080.0" />
+      <point x="2119.1735074727467" y="2080.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.ctl.Parser.Parser" target="dev.markmcd.controller.types.kripke.State">
+      <point x="-69.80000000000007" y="-644.5" />
+      <point x="3221.2657610603246" y="2080.0" />
+      <point x="3160.722011060325" y="2080.0" />
+      <point x="3160.722011060325" y="688.0" />
+      <point x="3057.8718760523648" y="688.0" />
+      <point x="52.3125" y="164.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.modelCheckRelated.ModelCheckInputs">
+      <point x="155.18918918918916" y="-307.0" />
+      <point x="2569.771616916181" y="3499.0" />
+      <point x="3494.2324277269913" y="3499.0" />
+      <point x="3494.2324277269913" y="2080.0" />
+      <point x="3457.565761060325" y="2080.0" />
+      <point x="0.0" y="86.0" />
+    </edge>
+    <edge source="dev.markmcd.view.View" target="dev.markmcd.controller.types.modelCheckRelated.ValidateFormulaResults">
+      <point x="113.09090909090901" y="-125.0" />
+      <point x="634.3477498969892" y="2080.0" />
+      <point x="621.2498745936778" y="2080.0" />
+      <point x="621.2498745936778" y="1632.0" />
+      <point x="2446.065761060325" y="1632.0" />
+      <point x="-130.0" y="73.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.kripke.Kripke" target="dev.markmcd.controller.types.kripke.Transition">
+      <point x="82.33333333333326" y="-99.0" />
+      <point x="3644.6278091473737" y="1263.0" />
+      <point x="3599.0735074727468" y="1263.0" />
+      <point x="3599.0735074727468" y="290.0" />
+      <point x="3251.3130908060803" y="290.0" />
+      <point x="45.1875" y="125.0" />
+    </edge>
+    <edge source="dev.markmcd.Main" target="dev.markmcd.controller.types.misc.Options">
+      <point x="-82.28571428571422" y="-34.5" />
+      <point x="308.7800467746106" y="4243.0" />
+      <point x="110.2294200482238" y="4243.0" />
+      <point x="110.2294200482238" y="2080.0" />
+      <point x="33.113658987898816" y="2080.0" />
+      <point x="-127.19999999999982" y="164.0" />
+    </edge>
+    <edge source="dev.markmcd.utils.Utils" target="dev.markmcd.controller.types.kripke.Transition">
+      <point x="-112.66666666666652" y="-242.5" />
+      <point x="1900.0901741394136" y="270.0" />
+      <point x="3100.6880908060803" y="270.0" />
+      <point x="-105.4375" y="125.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.kripke.Kripke" target="dev.markmcd.utils.Utils">
+      <point x="-82.33333333333326" y="-99.0" />
+      <point x="3479.961142480707" y="1243.0" />
+      <point x="2153.5901741394136" y="1243.0" />
+      <point x="140.83333333333348" y="242.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.modelCheckRelated.FormulaInputSource">
+      <point x="-155.18918918918916" y="-307.0" />
+      <point x="2259.3932385378025" y="3489.0" />
+      <point x="1266.1181818181817" y="3489.0" />
+      <point x="1266.1181818181817" y="1233.0" />
+      <point x="277.1999999999998" y="1233.0" />
+      <point x="123.19999999999982" y="86.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.modelCheckRelated.ModelCheckInputs" target="dev.markmcd.controller.types.kripke.Kripke">
+      <point x="0.0" y="-86.0" />
+      <point x="3457.565761060325" y="1652.0" />
+      <point x="3491.7230472426118" y="1652.0" />
+      <point x="-70.57142857142856" y="99.0" />
+    </edge>
+    <edge source="dev.markmcd.view.View" target="dev.markmcd.controller.types.modelCheckRelated.ModelCheckResults">
+      <point x="-56.545454545454504" y="-125.0" />
+      <point x="464.71138626062566" y="2080.0" />
+      <point x="487.48411353335314" y="2080.0" />
+      <point x="487.48411353335314" y="1552.0" />
+      <point x="1341.761038961039" y="1552.0" />
+      <point x="-113.57142857142844" y="86.5" />
+    </edge>
+    <edge source="dev.markmcd.model.Model" target="dev.markmcd.controller.types.modelCheckRelated.ModelCheckResults">
+      <point x="-94.5" y="-60.5" />
+      <point x="946.7568408060802" y="2020.0" />
+      <point x="834.7781260523645" y="2020.0" />
+      <point x="834.7781260523645" y="1572.0" />
+      <point x="1417.4753246753248" y="1572.0" />
+      <point x="-37.85714285714266" y="86.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.misc.Options">
+      <point x="-253.94594594594628" y="-307.0" />
+      <point x="2160.6364817810454" y="3559.0" />
+      <point x="132.2294200482238" y="3559.0" />
+      <point x="132.2294200482238" y="2080.0" />
+      <point x="160.31365898789863" y="2080.0" />
+      <point x="0.0" y="164.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.modelCheckRelated.ValidateModelResults">
+      <point x="14.108108108108127" y="-307.0" />
+      <point x="2428.6905358350996" y="3569.0" />
+      <point x="2425.5824277269917" y="3569.0" />
+      <point x="2425.5824277269917" y="1502.0" />
+      <point x="2363.465761060325" y="1502.0" />
+      <point x="120.40000000000009" y="60.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.view.View">
+      <point x="-239.83783783783792" y="-307.0" />
+      <point x="2174.7445898891538" y="3549.0" />
+      <point x="599.0068408060802" y="3549.0" />
+      <point x="77.75" y="125.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.modelCheckRelated.EndToEndTestResult" target="dev.markmcd.controller.types.modelCheckRelated.ModelCheckResults">
+      <point x="79.25" y="-99.5" />
+      <point x="1763.2944758140404" y="1572.0" />
+      <point x="1531.0467532467533" y="1572.0" />
+      <point x="75.71428571428578" y="86.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.ctl.Parser.Parser">
+      <point x="126.97297297297291" y="-307.0" />
+      <point x="2541.5554006999646" y="3479.0" />
+      <point x="3203.815761060325" y="3479.0" />
+      <point x="-87.25" y="644.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.modelCheckRelated.EndToEndFormulaFileObj">
+      <point x="84.64864864864876" y="-307.0" />
+      <point x="2499.2310763756404" y="3449.0" />
+      <point x="3003.315761060325" y="3449.0" />
+      <point x="81.25" y="60.5" />
+    </edge>
+    <edge source="dev.markmcd.utils.Utils" target="dev.markmcd.controller.types.kripke.State">
+      <point x="0.0" y="-242.5" />
+      <point x="2012.7568408060802" y="698.0" />
+      <point x="2918.3718760523648" y="698.0" />
+      <point x="-87.1875" y="164.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.modelCheckRelated.EndToEndTestResult">
+      <point x="-126.97297297297291" y="-307.0" />
+      <point x="2287.6094547540188" y="3469.0" />
+      <point x="1684.0444758140404" y="3469.0" />
+      <point x="0.0" y="99.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.kripke.Transition" target="dev.markmcd.controller.types.kripke.State">
+      <point x="-45.1875" y="125.0" />
+      <point x="3160.9380908060803" y="290.0" />
+      <point x="3005.5593760523648" y="290.0" />
+      <point x="0.0" y="-164.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.kripke.Transition">
+      <point x="239.83783783783792" y="-307.0" />
+      <point x="2654.4202655648296" y="3559.0" />
+      <point x="3852.1371896317532" y="3559.0" />
+      <point x="3852.1371896317532" y="280.0" />
+      <point x="3281.4380908060803" y="280.0" />
+      <point x="75.3125" y="125.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.kripke.State">
+      <point x="98.75675675675689" y="-307.0" />
+      <point x="2513.3391844837483" y="3459.0" />
+      <point x="3095.065761060325" y="3459.0" />
+      <point x="3095.065761060325" y="708.0" />
+      <point x="2988.1218760523648" y="708.0" />
+      <point x="-17.4375" y="164.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.modelCheckRelated.ValidationResults" target="dev.markmcd.controller.types.modelCheckRelated.ValidateFormulaResults">
+      <point x="112.0" y="-60.5" />
+      <point x="2231.1735074727467" y="1642.0" />
+      <point x="2511.065761060325" y="1642.0" />
+      <point x="-65.0" y="73.5" />
+    </edge>
+    <edge source="dev.markmcd.view.View" target="dev.markmcd.controller.types.modelCheckRelated.ValidationResults">
+      <point x="282.727272727273" y="-125.0" />
+      <point x="803.9841135333531" y="2060.0" />
+      <point x="1939.9735074727469" y="2060.0" />
+      <point x="-179.20000000000005" y="60.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.ctl.Parser.Parser" target="dev.markmcd.controller.types.modelCheckRelated.ModelCheckInputs">
+      <point x="139.60000000000002" y="-644.5" />
+      <point x="3430.6657610603247" y="2080.0" />
+      <point x="3373.2324277269913" y="2080.0" />
+      <point x="-84.33333333333337" y="86.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.modelCheckRelated.AllEndToEndTestResults">
+      <point x="-183.40540540540542" y="-307.0" />
+      <point x="2231.1770223215863" y="3509.0" />
+      <point x="1240.7568408060802" y="3509.0" />
+      <point x="1240.7568408060802" y="2040.0" />
+      <point x="1147.1181818181817" y="2040.0" />
+      <point x="65.0" y="60.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.model.Model">
+      <point x="-197.51351351351377" y="-307.0" />
+      <point x="2217.068914213478" y="3519.0" />
+      <point x="1183.0068408060802" y="3519.0" />
+      <point x="141.75" y="60.5" />
+    </edge>
+    <edge source="dev.markmcd.view.View" target="dev.markmcd.controller.types.kripke.State">
+      <point x="-169.6363636363635" y="-125.0" />
+      <point x="351.62047716971665" y="2060.0" />
+      <point x="465.48411353335314" y="2060.0" />
+      <point x="465.48411353335314" y="688.0" />
+      <point x="2883.4968760523648" y="688.0" />
+      <point x="-122.0625" y="164.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.ctl.Parser.Parser" target="dev.markmcd.controller.types.kripke.Kripke">
+      <point x="69.79999999999995" y="-644.5" />
+      <point x="3360.865761060325" y="2080.0" />
+      <point x="3313.0869318181817" y="2080.0" />
+      <point x="3313.0869318181817" y="1642.0" />
+      <point x="3456.4373329568975" y="1642.0" />
+      <point x="-105.85714285714289" y="99.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.ctl.Parser.Parser" target="dev.markmcd.controller.types.kripke.Transition">
+      <point x="0.0" y="-644.5" />
+      <point x="3291.065761060325" y="300.0" />
+      <point x="3221.1880908060803" y="300.0" />
+      <point x="15.0625" y="125.0" />
+    </edge>
+    <edge source="dev.markmcd.view.View" target="dev.markmcd.controller.types.modelCheckRelated.ValidateStateToCheckResults">
+      <point x="0.0" y="-125.0" />
+      <point x="521.2568408060802" y="2080.0" />
+      <point x="498.48411353335314" y="2080.0" />
+      <point x="498.48411353335314" y="1592.0" />
+      <point x="1726.0657610603248" y="1592.0" />
+      <point x="-154.0" y="47.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.kripke.KripkeFileObj" target="dev.markmcd.controller.types.kripke.Kripke">
+      <point x="-54.25" y="-99.5" />
+      <point x="3659.315761060325" y="1642.0" />
+      <point x="3597.580190099755" y="1642.0" />
+      <point x="35.28571428571422" y="99.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.misc.Options" target="dev.markmcd.controller.types.modelCheckRelated.FormulaInputSource">
+      <point x="-119.25" y="-164.0" />
+      <point x="41.063658987898634" y="1652.0" />
+      <point x="57.29999999999973" y="1652.0" />
+      <point x="57.29999999999973" y="1263.0" />
+      <point x="30.800000000000182" y="1263.0" />
+      <point x="-123.19999999999982" y="86.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.modelCheckRelated.ValidationResults">
+      <point x="-56.432432432432506" y="-307.0" />
+      <point x="2358.149995294559" y="3419.0" />
+      <point x="2256.411142480707" y="3419.0" />
+      <point x="2256.411142480707" y="2080.0" />
+      <point x="2208.773507472747" y="2080.0" />
+      <point x="89.59999999999991" y="60.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.utils.Utils">
+      <point x="56.432432432432506" y="-307.0" />
+      <point x="2471.014860159424" y="3429.0" />
+      <point x="2749.065761060325" y="3429.0" />
+      <point x="2749.065761060325" y="1263.0" />
+      <point x="2040.9235074727467" y="1263.0" />
+      <point x="28.166666666666515" y="242.5" />
+    </edge>
+    <edge source="dev.markmcd.model.Model" target="dev.markmcd.controller.types.modelCheckRelated.AllEndToEndTestResults">
+      <point x="-31.5" y="-60.5" />
+      <point x="1009.7568408060802" y="2040.0" />
+      <point x="1017.1181818181817" y="2040.0" />
+      <point x="-65.0" y="60.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.Controller" target="dev.markmcd.controller.types.modelCheckRelated.ValidateStateToCheckResults">
+      <point x="-14.1081081081079" y="-307.0" />
+      <point x="2400.474319618884" y="3559.0" />
+      <point x="2389.3611424807073" y="3559.0" />
+      <point x="2389.3611424807073" y="1522.0" />
+      <point x="2034.0657610603246" y="1522.0" />
+      <point x="153.99999999999977" y="47.5" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.misc.Arguments" target="dev.markmcd.controller.types.modelCheckRelated.FormulaInputSource">
+      <point x="-106.0" y="-99.5" />
+      <point x="131.79999999999973" y="1263.0" />
+      <point x="154.0" y="1263.0" />
+      <point x="0.0" y="86.0" />
+    </edge>
+    <edge source="dev.markmcd.view.View" target="dev.markmcd.utils.Utils">
+      <point x="-113.09090909090901" y="-125.0" />
+      <point x="408.16593171517115" y="2070.0" />
+      <point x="476.48411353335314" y="2070.0" />
+      <point x="476.48411353335314" y="1253.0" />
+      <point x="1928.2568408060802" y="1253.0" />
+      <point x="-84.5" y="242.5" />
+    </edge>
+    <edge source="dev.markmcd.view.View" target="dev.markmcd.controller.types.misc.Options">
+      <point x="-226.18181818181802" y="-125.0" />
+      <point x="295.07502262426215" y="2080.0" />
+      <point x="287.51365898789845" y="2080.0" />
+      <point x="127.19999999999982" y="164.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.kripke.State" target="dev.markmcd.controller.types.kripke.Transition">
+      <point x="-93.0" y="-164.0" />
+      <point x="2912.5593760523648" y="280.0" />
+      <point x="3130.8130908060803" y="280.0" />
+      <point x="-75.3125" y="125.0" />
+    </edge>
+    <edge source="dev.markmcd.controller.types.modelCheckRelated.ModelCheckInputs" target="dev.markmcd.controller.types.kripke.State">
+      <point x="-84.33333333333326" y="-86.0" />
+      <point x="3373.232427726992" y="1632.0" />
+      <point x="3384.6278091473737" y="1632.0" />
+      <point x="3384.6278091473737" y="678.0" />
+      <point x="3092.7468760523648" y="678.0" />
+      <point x="87.1875" y="164.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.744791171529657" x="998.0563961569885" y="2942.944369692362" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

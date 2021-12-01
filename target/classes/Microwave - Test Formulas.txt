@@ -1,0 +1,224 @@
+s1;EGp and AGq;False
+s2;EGp and AGq;False
+s3;EGp and AGq;False
+s4;EGp and AGq;False
+s5;EGp and AGq;False
+s6;EGp and AGq;False
+s7;EGp and AGq;False
+s1;EGr and AGs;False
+s2;EGr and AGs;False
+s3;EGr and AGs;False
+s4;EGr and AGs;False
+s5;EGr and AGs;False
+s6;EGr and AGs;False
+s7;EGr and AGs;False
+s1;(not AGp) or EFq;True
+s2;(not AGp) or EFq;True
+s3;(not AGp) or EFq;True
+s4;(not AGp) or EFq;True
+s5;(not AGp) or EFq;True
+s6;(not AGp) or EFq;True
+s7;(not AGp) or EFq;True
+s1;(not AGr) or EFs;True
+s2;(not AGr) or EFs;True
+s3;(not AGr) or EFs;True
+s4;(not AGr) or EFs;True
+s5;(not AGr) or EFs;True
+s6;(not AGr) or EFs;True
+s7;(not AGr) or EFs;True
+s1;EG(r->s);True
+s2;EG(r->s);True
+s3;EG(r->s);True
+s4;EG(r->s);False
+s5;EG(r->s);True
+s6;EG(r->s);False
+s7;EG(r->s);False
+s1;AX(r->p);True
+s2;AX(r->p);True
+s3;AX(r->p);True
+s4;AX(r->p);False
+s5;AX(r->p);True
+s6;AX(r->p);True
+s7;AX(r->p);False
+s1;AXq;False
+s2;AXq;True
+s3;AXq;False
+s4;AXq;False
+s5;AXq;False
+s6;AXq;True
+s7;AXq;True
+s1;AXp;False
+s2;AXp;True
+s3;AXp;False
+s4;AXp;False
+s5;AXp;False
+s6;AXp;True
+s7;AXp;False
+s1;EXq;True
+s2;EXq;True
+s3;EXq;True
+s4;EXq;True
+s5;EXq;True
+s6;EXq;True
+s7;EXq;True
+s1;EXr;False
+s2;EXr;False
+s3;EXr;False
+s4;EXr;True
+s5;EXr;False
+s6;EXr;True
+s7;EXr;True
+s1;not AXq;True
+s2;not AXq;False
+s3;not AXq;True
+s4;not AXq;True
+s5;not AXq;True
+s6;not AXq;False
+s7;not AXq;False
+s1;not AXs;True
+s2;not AXs;False
+s3;not AXs;True
+s4;not AXs;True
+s5;not AXs;True
+s6;not AXs;True
+s7;not AXs;True
+s1;not EXq;False
+s2;not EXq;False
+s3;not EXq;False
+s4;not EXq;False
+s5;not EXq;False
+s6;not EXq;False
+s7;not EXq;False
+s1;not EXr;True
+s2;not EXr;True
+s3;not EXr;True
+s4;not EXr;False
+s5;not EXr;True
+s6;not EXr;False
+s7;not EXr;False
+s1;A(pUq);False
+s2;A(pUq);True
+s3;A(pUq);True
+s4;A(pUq);True
+s5;A(pUq);True
+s6;A(pUq);True
+s7;A(pUq);True
+s1;A(rUs);False
+s2;A(rUs);True
+s3;A(rUs);False
+s4;A(rUs);False
+s5;A(rUs);True
+s6;A(rUs);False
+s7;A(rUs);False
+s1;E(pUq);False
+s2;E(pUq);True
+s3;E(pUq);True
+s4;E(pUq);True
+s5;E(pUq);True
+s6;E(pUq);True
+s7;E(pUq);True
+s1;AXq and A(pUq);False
+s2;AXq and A(pUq);True
+s3;AXq and A(pUq);False
+s4;AXq and A(pUq);False
+s5;AXq and A(pUq);False
+s6;AXq and A(pUq);True
+s7;AXq and A(pUq);True
+s1;AXr and A(pUq);False
+s2;AXr and A(pUq);False
+s3;AXr and A(pUq);False
+s4;AXr and A(pUq);False
+s5;AXr and A(pUq);False
+s6;AXr and A(pUq);True
+s7;AXr and A(pUq);True
+s1;AXq or A(pUq);False
+s2;AXq or A(pUq);True
+s3;AXq or A(pUq);True
+s4;AXq or A(pUq);True
+s5;AXq or A(pUq);True
+s6;AXq or A(pUq);True
+s7;AXq or A(pUq);True
+s1;AXs or A(pUq);False
+s2;AXs or A(pUq);True
+s3;AXs or A(pUq);True
+s4;AXs or A(pUq);True
+s5;AXs or A(pUq);True
+s6;AXs or A(pUq);True
+s7;AXs or A(pUq);True
+s1;EFs;True
+s2;EFs;True
+s3;EFs;True
+s4;EFs;True
+s5;EFs;True
+s6;EFs;True
+s7;EFs;True
+s1;AFr;False
+s2;AFr;False
+s3;AFr;False
+s4;AFr;True
+s5;AFr;False
+s6;AFr;True
+s7;AFr;True
+s1;EGp;False
+s2;EGp;True
+s3;EGp;False
+s4;EGp;False
+s5;EGp;True
+s6;EGp;False
+s7;EGp;False
+s1;AGq;False
+s2;AGq;False
+s3;AGq;False
+s4;AGq;False
+s5;AGq;False
+s6;AGq;False
+s7;AGq;False
+s1;AX((EFp)or(AFr));True
+s2;AX((EFp)or(AFr));True
+s3;AX((EFp)or(AFr));True
+s4;AX((EFp)or(AFr));True
+s5;AX((EFp)or(AFr));True
+s6;AX((EFp)or(AFr));True
+s7;AX((EFp)or(AFr));True
+s1;EX((AFq)or(EFs));True
+s2;EX((AFq)or(EFs));True
+s3;EX((AFq)or(EFs));True
+s4;EX((AFq)or(EFs));True
+s5;EX((AFq)or(EFs));True
+s6;EX((AFq)or(EFs));True
+s7;EX((AFq)or(EFs));True
+s1;A(pUA(qUr));False
+s2;A(pUA(qUr));False
+s3;A(pUA(qUr));False
+s4;A(pUA(qUr));True
+s5;A(pUA(qUr));False
+s6;A(pUA(qUr));True
+s7;A(pUA(qUr));True
+s1;E(A(qUr)Us);False
+s2;E(A(qUr)Us);True
+s3;E(A(qUr)Us);False
+s4;E(A(qUr)Us);False
+s5;E(A(qUr)Us);True
+s6;E(A(qUr)Us);False
+s7;E(A(qUr)Us);False
+s1;AG(s->A(pU(not r and A(not pUq))));True
+s2;AG(s->A(pU(not r and A(not pUq))));True
+s3;AG(s->A(pU(not r and A(not pUq))));True
+s4;AG(s->A(pU(not r and A(not pUq))));True
+s5;AG(s->A(pU(not r and A(not pUq))));True
+s6;AG(s->A(pU(not r and A(not pUq))));True
+s7;AG(s->A(pU(not r and A(not pUq))));True
+s1;EF(p and EG not r);True
+s2;EF(p and EG not r);True
+s3;EF(p and EG not r);True
+s4;EF(p and EG not r);True
+s5;EF(p and EG not r);True
+s6;EF(p and EG not r);True
+s7;EF(p and EG not r);True
+s1;not EF(p and EG not r);False
+s2;not EF(p and EG not r);False
+s3;not EF(p and EG not r);False
+s4;not EF(p and EG not r);False
+s5;not EF(p and EG not r);False
+s6;not EF(p and EG not r);False
+s7;not EF(p and EG not r);False

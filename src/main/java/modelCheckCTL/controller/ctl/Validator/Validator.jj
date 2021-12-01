@@ -1,0 +1,103 @@
+options {
+STATIC = false;
+}
+
+PARSER_BEGIN(Validator)
+package modelCheckCTL.controller.ctl.Validator;
+
+/**
+* The Validator class checks the syntax of the CTL formulas and makes sure they are well formed (contain no syntax errors). This Validator.java file is automatically generated from the Validator.jj file using JavaCC (using the terminal line `javacc Validator.jj`) inside this folder. That line also generates all the other files in this directory.
+* The CTL parser rules approach from https://github.com/pedrogongora/antelope/blob/master/AntelopeCore/src/antelope/ctl/parser/CTLParser.jj, accessed 9/20
+* The Validator class is like an extremely lightweight version of the Parser.java class - it runs through the SAT algorithms, but only through their structure, not their internal logic.
+* A compiler was used (the javaCC compiler specifically) so infinitely nested CTL formulas could be parsed correctly.
+*/
+public class Validator {
+
+}
+
+PARSER_END(Validator)
+
+SKIP :
+{
+  " "
+| "\t"
+| "\n"
+| "\r"
+}
+
+TOKEN :
+{
+      <NOT: "not">
+    | <AND: "and">
+    | <OR: "or">
+    | <IMPLIES: "->">
+    | <AX: "AX">
+    | <AF: "AF">
+    | <AG: "AG">
+    | <EX: "EX">
+    | <EF: "EF">
+    | <EG: "EG">
+    | <A: "A">
+    | <E: "E">
+    | <U: "U">
+    | <LPAREN: "(">
+    | <RPAREN: ")">
+    | <ATOM: ["a"-"z"](["0"-"9"])*>
+}
+
+/**
+* Root production. This is the method called to kick off the formula validation
+*/
+void Validate():
+{}
+{
+    formula() <EOF>
+}
+
+/**
+* A formula can be an expression or an expression with a binary operator
+*/
+void formula():
+{}
+{
+    expression() [ binaryPredicate() ]
+}
+
+/**
+* An expression can be: an atom, a not operation, a formula with parentheses around it or a temporal expression
+*/
+void expression():
+{}
+{
+        <ATOM>
+    |   <NOT> formula()
+    |   <LPAREN> formula() <RPAREN>
+    |   temporalExpression()
+}
+
+/**
+* A binary predicate can be: an and operation, an or operation or an implies operation
+*/
+void binaryPredicate():
+{}
+{
+        <AND> formula()
+    |   <OR> formula()
+    |   <IMPLIES> formula()
+}
+
+/**
+* A temporal expression can be the following operations: AX, AF, AG, EX, EF, EG, EU or AU
+*/
+void temporalExpression():
+{}
+{
+      <AX> formula()
+    | <AF> formula()
+    | <AG> formula()
+    | <EX> formula()
+    | <EF> formula()
+    | <EG> formula()
+    | <A> <LPAREN> formula() <U> formula() <RPAREN>
+    | <E> <LPAREN> formula() <U> formula() <RPAREN>
+}

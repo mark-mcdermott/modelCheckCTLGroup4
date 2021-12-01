@@ -1,0 +1,7 @@
+Description of Acceptance Test Cases
+
+Our program tests regular Model 1 through 8 and Broken Models 1 through 8.
+For the regular Model 1 through 8, our program parses the kripke files in the txt files with the name like "Model 1.txt", etc.
+Then our program parses the expected results files named "Model 1 - Test Formulas.txt", etc. The acceptance tests run through each
+of these expected results and tests each specfied state with the specified formula against the model file with the same number ("Model 1.txt" is the kripke for "Model 1 - Test Formulas.txt", etc). For each row in the expected results our program checks for the
+specified result in the test case row, for example if the row says "True", the expected result is that the state holds. If our program's actual results match the expected result, then the test passes.
