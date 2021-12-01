@@ -25,8 +25,8 @@ CTL model checker written in Java and using a JavaCC parser for Texas State CS 5
     - reopen terminal
     - type `mvn -version` and if everything worked the response should start with something like `Apache Maven 3.8.3`
 3) Clone the repo  
-   - `git clone cs5392-group-project-kusupati-liu-mcdermott-namala`
-4) Cd into project: `cd cs5392-group-project-kusupati-liu-mcdermott-namala`
+   - `git clone modelCheckCTLGroup4`
+4) Cd into project: `cd modelCheckCTLGroup4`
 5) Cd into /out folder: `cd out`
 6) Run the program
     - `java -jar modelCheckingCTL.jar -k <kripke file> [-s <state to check>] -af <formula> [-e [<end to end test number>]] [-m]` (note the "-af" flag is signifying that you must choose either -a or -f. `-af` does not actually work.)
@@ -48,7 +48,7 @@ CTL model checker written in Java and using a JavaCC parser for Texas State CS 5
 ## Development Notes
 - To get this running in IntelliJ:
     - Open IntelliJ
-    - Open the top level program folder `cs5392-group-project-kusupati-liu-mcdermott-namala`
+    - Open the top level program folder `modelCheckCTLGroup4`
     - Set the project java SDK to java 14:
     - file -> project structure -> project sdk on the right -> set to java 14.0.2 if not already set to that.
     - Click the green hammer icon at the top to do the initial build
